@@ -1,7 +1,4 @@
- 3des-cbc-pkcs5padding
-
-
-
+ 
 ##c
 ```
     unsigned char buffer[] = "this is a 3des-cbd-PKCS#5 exampl";
@@ -22,9 +19,10 @@
     //base64
     unsigned char *buf = NULL;
     buf = base64_encode(out);
-    printf("base64 =%s ", buf);
+    printf("base64 =%s ", buf); 
     
-    ```
+```
+
 
 ##php
 
