@@ -1,5 +1,6 @@
  
-##c
+## c
+
 ```
     unsigned char buffer[] = "this is a 3des-cbd-PKCS#5 exampl";
     padding_with_length(buffer, strlen(buffer));
@@ -24,7 +25,7 @@
 ```
 
 
-##php
+## php
 
 ```
 $data1 ='this is a 3des-cbd-PKCS#5 example';
@@ -48,7 +49,7 @@ function strToHex2($str){
 }
 ```
 
-##java
+## java
 ```
    public static final byte[] KEY    =
             {
@@ -74,9 +75,8 @@ function strToHex2($str){
     }
 ```
 
-##online test
+## online test
  
-
 * [online test](https://www.devglan.com/online-tools/triple-des-encrypt-decrypt)
  
  
