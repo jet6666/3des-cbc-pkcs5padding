@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/web/android/3des-cbc-pkcs5padding/DES"/>
 					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
 					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
 					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
@@ -43,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/web/android/3des-cbc-pkcs5padding/DES"/>
 					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
 					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
 					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
@@ -50,6 +52,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/Makefile&quot;  VERBOSE=1 3des_cbc_pkcs5padding/fast"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DES">
+				<Option output="D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/libDES.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/web/android/3des-cbc-pkcs5padding/DES"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/Makefile&quot;  VERBOSE=1 DES"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DES/fast">
+				<Option output="D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/libDES.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/web/android/3des-cbc-pkcs5padding/DES"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/Makefile&quot;  VERBOSE=1 DES/fast"/>
 					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/web/android/3des-cbc-pkcs5padding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -76,7 +118,97 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/BitPermutationFunctions.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/BitPermutationFunctions.h">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/CBCDESDecryption.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/CBCDESDecryption.h">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/CBCDESEncryption.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/CBCDESEncryption.h">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/DESDecrypt.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/DESDecrypt.h">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/DESEncrypt.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/DESEncrypt.h">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/DataPrint.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/DataPrint.h">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/FileReader.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/FileReader.h">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/keyGeneration.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/keyGeneration.h">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/keyReader.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/keyReader.h">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/tripleDESCBCDecryption.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/tripleDESCBCDecryption.h">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/tripleDESCBCEncryption.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/tripleDESCBCEncryption.h">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/tripleKeyDESCBCDecryption.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/tripleKeyDESCBCDecryption.h">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/tripleKeyDESCBCEncryption.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/DES/tripleKeyDESCBCEncryption.h">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/cipher_padding.c">
+			<Option target="3des_cbc_pkcs5padding"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/cipher_padding.h">
+			<Option target="3des_cbc_pkcs5padding"/>
+		</Unit>
 		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/main.c">
+			<Option target="3des_cbc_pkcs5padding"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/utils.c">
+			<Option target="3des_cbc_pkcs5padding"/>
+		</Unit>
+		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/utils.h">
 			<Option target="3des_cbc_pkcs5padding"/>
 		</Unit>
 		<Unit filename="D:/web/android/3des-cbc-pkcs5padding/CMakeLists.txt">

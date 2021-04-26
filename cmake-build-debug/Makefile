@@ -122,6 +122,397 @@ depend:
 	$(MAKE) -f CMakeFiles\3des_cbc_pkcs5padding.dir\build.make CMakeFiles/3des_cbc_pkcs5padding.dir/build
 .PHONY : 3des_cbc_pkcs5padding/fast
 
+#=============================================================================
+# Target rules for targets named DES
+
+# Build rule for target.
+DES: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 DES
+.PHONY : DES
+
+# fast build rule for target.
+DES/fast:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/build
+.PHONY : DES/fast
+
+DES/BitPermutationFunctions.obj: DES/BitPermutationFunctions.c.obj
+
+.PHONY : DES/BitPermutationFunctions.obj
+
+# target to build an object file
+DES/BitPermutationFunctions.c.obj:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/BitPermutationFunctions.c.obj
+.PHONY : DES/BitPermutationFunctions.c.obj
+
+DES/BitPermutationFunctions.i: DES/BitPermutationFunctions.c.i
+
+.PHONY : DES/BitPermutationFunctions.i
+
+# target to preprocess a source file
+DES/BitPermutationFunctions.c.i:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/BitPermutationFunctions.c.i
+.PHONY : DES/BitPermutationFunctions.c.i
+
+DES/BitPermutationFunctions.s: DES/BitPermutationFunctions.c.s
+
+.PHONY : DES/BitPermutationFunctions.s
+
+# target to generate assembly for a file
+DES/BitPermutationFunctions.c.s:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/BitPermutationFunctions.c.s
+.PHONY : DES/BitPermutationFunctions.c.s
+
+DES/CBCDESDecryption.obj: DES/CBCDESDecryption.c.obj
+
+.PHONY : DES/CBCDESDecryption.obj
+
+# target to build an object file
+DES/CBCDESDecryption.c.obj:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/CBCDESDecryption.c.obj
+.PHONY : DES/CBCDESDecryption.c.obj
+
+DES/CBCDESDecryption.i: DES/CBCDESDecryption.c.i
+
+.PHONY : DES/CBCDESDecryption.i
+
+# target to preprocess a source file
+DES/CBCDESDecryption.c.i:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/CBCDESDecryption.c.i
+.PHONY : DES/CBCDESDecryption.c.i
+
+DES/CBCDESDecryption.s: DES/CBCDESDecryption.c.s
+
+.PHONY : DES/CBCDESDecryption.s
+
+# target to generate assembly for a file
+DES/CBCDESDecryption.c.s:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/CBCDESDecryption.c.s
+.PHONY : DES/CBCDESDecryption.c.s
+
+DES/CBCDESEncryption.obj: DES/CBCDESEncryption.c.obj
+
+.PHONY : DES/CBCDESEncryption.obj
+
+# target to build an object file
+DES/CBCDESEncryption.c.obj:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/CBCDESEncryption.c.obj
+.PHONY : DES/CBCDESEncryption.c.obj
+
+DES/CBCDESEncryption.i: DES/CBCDESEncryption.c.i
+
+.PHONY : DES/CBCDESEncryption.i
+
+# target to preprocess a source file
+DES/CBCDESEncryption.c.i:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/CBCDESEncryption.c.i
+.PHONY : DES/CBCDESEncryption.c.i
+
+DES/CBCDESEncryption.s: DES/CBCDESEncryption.c.s
+
+.PHONY : DES/CBCDESEncryption.s
+
+# target to generate assembly for a file
+DES/CBCDESEncryption.c.s:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/CBCDESEncryption.c.s
+.PHONY : DES/CBCDESEncryption.c.s
+
+DES/DESDecrypt.obj: DES/DESDecrypt.c.obj
+
+.PHONY : DES/DESDecrypt.obj
+
+# target to build an object file
+DES/DESDecrypt.c.obj:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/DESDecrypt.c.obj
+.PHONY : DES/DESDecrypt.c.obj
+
+DES/DESDecrypt.i: DES/DESDecrypt.c.i
+
+.PHONY : DES/DESDecrypt.i
+
+# target to preprocess a source file
+DES/DESDecrypt.c.i:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/DESDecrypt.c.i
+.PHONY : DES/DESDecrypt.c.i
+
+DES/DESDecrypt.s: DES/DESDecrypt.c.s
+
+.PHONY : DES/DESDecrypt.s
+
+# target to generate assembly for a file
+DES/DESDecrypt.c.s:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/DESDecrypt.c.s
+.PHONY : DES/DESDecrypt.c.s
+
+DES/DESEncrypt.obj: DES/DESEncrypt.c.obj
+
+.PHONY : DES/DESEncrypt.obj
+
+# target to build an object file
+DES/DESEncrypt.c.obj:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/DESEncrypt.c.obj
+.PHONY : DES/DESEncrypt.c.obj
+
+DES/DESEncrypt.i: DES/DESEncrypt.c.i
+
+.PHONY : DES/DESEncrypt.i
+
+# target to preprocess a source file
+DES/DESEncrypt.c.i:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/DESEncrypt.c.i
+.PHONY : DES/DESEncrypt.c.i
+
+DES/DESEncrypt.s: DES/DESEncrypt.c.s
+
+.PHONY : DES/DESEncrypt.s
+
+# target to generate assembly for a file
+DES/DESEncrypt.c.s:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/DESEncrypt.c.s
+.PHONY : DES/DESEncrypt.c.s
+
+DES/DataPrint.obj: DES/DataPrint.c.obj
+
+.PHONY : DES/DataPrint.obj
+
+# target to build an object file
+DES/DataPrint.c.obj:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/DataPrint.c.obj
+.PHONY : DES/DataPrint.c.obj
+
+DES/DataPrint.i: DES/DataPrint.c.i
+
+.PHONY : DES/DataPrint.i
+
+# target to preprocess a source file
+DES/DataPrint.c.i:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/DataPrint.c.i
+.PHONY : DES/DataPrint.c.i
+
+DES/DataPrint.s: DES/DataPrint.c.s
+
+.PHONY : DES/DataPrint.s
+
+# target to generate assembly for a file
+DES/DataPrint.c.s:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/DataPrint.c.s
+.PHONY : DES/DataPrint.c.s
+
+DES/FileReader.obj: DES/FileReader.c.obj
+
+.PHONY : DES/FileReader.obj
+
+# target to build an object file
+DES/FileReader.c.obj:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/FileReader.c.obj
+.PHONY : DES/FileReader.c.obj
+
+DES/FileReader.i: DES/FileReader.c.i
+
+.PHONY : DES/FileReader.i
+
+# target to preprocess a source file
+DES/FileReader.c.i:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/FileReader.c.i
+.PHONY : DES/FileReader.c.i
+
+DES/FileReader.s: DES/FileReader.c.s
+
+.PHONY : DES/FileReader.s
+
+# target to generate assembly for a file
+DES/FileReader.c.s:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/FileReader.c.s
+.PHONY : DES/FileReader.c.s
+
+DES/keyGeneration.obj: DES/keyGeneration.c.obj
+
+.PHONY : DES/keyGeneration.obj
+
+# target to build an object file
+DES/keyGeneration.c.obj:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/keyGeneration.c.obj
+.PHONY : DES/keyGeneration.c.obj
+
+DES/keyGeneration.i: DES/keyGeneration.c.i
+
+.PHONY : DES/keyGeneration.i
+
+# target to preprocess a source file
+DES/keyGeneration.c.i:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/keyGeneration.c.i
+.PHONY : DES/keyGeneration.c.i
+
+DES/keyGeneration.s: DES/keyGeneration.c.s
+
+.PHONY : DES/keyGeneration.s
+
+# target to generate assembly for a file
+DES/keyGeneration.c.s:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/keyGeneration.c.s
+.PHONY : DES/keyGeneration.c.s
+
+DES/keyReader.obj: DES/keyReader.c.obj
+
+.PHONY : DES/keyReader.obj
+
+# target to build an object file
+DES/keyReader.c.obj:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/keyReader.c.obj
+.PHONY : DES/keyReader.c.obj
+
+DES/keyReader.i: DES/keyReader.c.i
+
+.PHONY : DES/keyReader.i
+
+# target to preprocess a source file
+DES/keyReader.c.i:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/keyReader.c.i
+.PHONY : DES/keyReader.c.i
+
+DES/keyReader.s: DES/keyReader.c.s
+
+.PHONY : DES/keyReader.s
+
+# target to generate assembly for a file
+DES/keyReader.c.s:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/keyReader.c.s
+.PHONY : DES/keyReader.c.s
+
+DES/tripleDESCBCDecryption.obj: DES/tripleDESCBCDecryption.c.obj
+
+.PHONY : DES/tripleDESCBCDecryption.obj
+
+# target to build an object file
+DES/tripleDESCBCDecryption.c.obj:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/tripleDESCBCDecryption.c.obj
+.PHONY : DES/tripleDESCBCDecryption.c.obj
+
+DES/tripleDESCBCDecryption.i: DES/tripleDESCBCDecryption.c.i
+
+.PHONY : DES/tripleDESCBCDecryption.i
+
+# target to preprocess a source file
+DES/tripleDESCBCDecryption.c.i:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/tripleDESCBCDecryption.c.i
+.PHONY : DES/tripleDESCBCDecryption.c.i
+
+DES/tripleDESCBCDecryption.s: DES/tripleDESCBCDecryption.c.s
+
+.PHONY : DES/tripleDESCBCDecryption.s
+
+# target to generate assembly for a file
+DES/tripleDESCBCDecryption.c.s:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/tripleDESCBCDecryption.c.s
+.PHONY : DES/tripleDESCBCDecryption.c.s
+
+DES/tripleDESCBCEncryption.obj: DES/tripleDESCBCEncryption.c.obj
+
+.PHONY : DES/tripleDESCBCEncryption.obj
+
+# target to build an object file
+DES/tripleDESCBCEncryption.c.obj:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/tripleDESCBCEncryption.c.obj
+.PHONY : DES/tripleDESCBCEncryption.c.obj
+
+DES/tripleDESCBCEncryption.i: DES/tripleDESCBCEncryption.c.i
+
+.PHONY : DES/tripleDESCBCEncryption.i
+
+# target to preprocess a source file
+DES/tripleDESCBCEncryption.c.i:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/tripleDESCBCEncryption.c.i
+.PHONY : DES/tripleDESCBCEncryption.c.i
+
+DES/tripleDESCBCEncryption.s: DES/tripleDESCBCEncryption.c.s
+
+.PHONY : DES/tripleDESCBCEncryption.s
+
+# target to generate assembly for a file
+DES/tripleDESCBCEncryption.c.s:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/tripleDESCBCEncryption.c.s
+.PHONY : DES/tripleDESCBCEncryption.c.s
+
+DES/tripleKeyDESCBCDecryption.obj: DES/tripleKeyDESCBCDecryption.c.obj
+
+.PHONY : DES/tripleKeyDESCBCDecryption.obj
+
+# target to build an object file
+DES/tripleKeyDESCBCDecryption.c.obj:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/tripleKeyDESCBCDecryption.c.obj
+.PHONY : DES/tripleKeyDESCBCDecryption.c.obj
+
+DES/tripleKeyDESCBCDecryption.i: DES/tripleKeyDESCBCDecryption.c.i
+
+.PHONY : DES/tripleKeyDESCBCDecryption.i
+
+# target to preprocess a source file
+DES/tripleKeyDESCBCDecryption.c.i:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/tripleKeyDESCBCDecryption.c.i
+.PHONY : DES/tripleKeyDESCBCDecryption.c.i
+
+DES/tripleKeyDESCBCDecryption.s: DES/tripleKeyDESCBCDecryption.c.s
+
+.PHONY : DES/tripleKeyDESCBCDecryption.s
+
+# target to generate assembly for a file
+DES/tripleKeyDESCBCDecryption.c.s:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/tripleKeyDESCBCDecryption.c.s
+.PHONY : DES/tripleKeyDESCBCDecryption.c.s
+
+DES/tripleKeyDESCBCEncryption.obj: DES/tripleKeyDESCBCEncryption.c.obj
+
+.PHONY : DES/tripleKeyDESCBCEncryption.obj
+
+# target to build an object file
+DES/tripleKeyDESCBCEncryption.c.obj:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/tripleKeyDESCBCEncryption.c.obj
+.PHONY : DES/tripleKeyDESCBCEncryption.c.obj
+
+DES/tripleKeyDESCBCEncryption.i: DES/tripleKeyDESCBCEncryption.c.i
+
+.PHONY : DES/tripleKeyDESCBCEncryption.i
+
+# target to preprocess a source file
+DES/tripleKeyDESCBCEncryption.c.i:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/tripleKeyDESCBCEncryption.c.i
+.PHONY : DES/tripleKeyDESCBCEncryption.c.i
+
+DES/tripleKeyDESCBCEncryption.s: DES/tripleKeyDESCBCEncryption.c.s
+
+.PHONY : DES/tripleKeyDESCBCEncryption.s
+
+# target to generate assembly for a file
+DES/tripleKeyDESCBCEncryption.c.s:
+	$(MAKE) -f CMakeFiles\DES.dir\build.make CMakeFiles/DES.dir/DES/tripleKeyDESCBCEncryption.c.s
+.PHONY : DES/tripleKeyDESCBCEncryption.c.s
+
+cipher_padding.obj: cipher_padding.c.obj
+
+.PHONY : cipher_padding.obj
+
+# target to build an object file
+cipher_padding.c.obj:
+	$(MAKE) -f CMakeFiles\3des_cbc_pkcs5padding.dir\build.make CMakeFiles/3des_cbc_pkcs5padding.dir/cipher_padding.c.obj
+.PHONY : cipher_padding.c.obj
+
+cipher_padding.i: cipher_padding.c.i
+
+.PHONY : cipher_padding.i
+
+# target to preprocess a source file
+cipher_padding.c.i:
+	$(MAKE) -f CMakeFiles\3des_cbc_pkcs5padding.dir\build.make CMakeFiles/3des_cbc_pkcs5padding.dir/cipher_padding.c.i
+.PHONY : cipher_padding.c.i
+
+cipher_padding.s: cipher_padding.c.s
+
+.PHONY : cipher_padding.s
+
+# target to generate assembly for a file
+cipher_padding.c.s:
+	$(MAKE) -f CMakeFiles\3des_cbc_pkcs5padding.dir\build.make CMakeFiles/3des_cbc_pkcs5padding.dir/cipher_padding.c.s
+.PHONY : cipher_padding.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -149,6 +540,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\3des_cbc_pkcs5padding.dir\build.make CMakeFiles/3des_cbc_pkcs5padding.dir/main.c.s
 .PHONY : main.c.s
 
+utils.obj: utils.c.obj
+
+.PHONY : utils.obj
+
+# target to build an object file
+utils.c.obj:
+	$(MAKE) -f CMakeFiles\3des_cbc_pkcs5padding.dir\build.make CMakeFiles/3des_cbc_pkcs5padding.dir/utils.c.obj
+.PHONY : utils.c.obj
+
+utils.i: utils.c.i
+
+.PHONY : utils.i
+
+# target to preprocess a source file
+utils.c.i:
+	$(MAKE) -f CMakeFiles\3des_cbc_pkcs5padding.dir\build.make CMakeFiles/3des_cbc_pkcs5padding.dir/utils.c.i
+.PHONY : utils.c.i
+
+utils.s: utils.c.s
+
+.PHONY : utils.s
+
+# target to generate assembly for a file
+utils.c.s:
+	$(MAKE) -f CMakeFiles\3des_cbc_pkcs5padding.dir\build.make CMakeFiles/3des_cbc_pkcs5padding.dir/utils.c.s
+.PHONY : utils.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -156,11 +574,57 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... 3des_cbc_pkcs5padding
+	@echo ... DES
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... DES/BitPermutationFunctions.obj
+	@echo ... DES/BitPermutationFunctions.i
+	@echo ... DES/BitPermutationFunctions.s
+	@echo ... DES/CBCDESDecryption.obj
+	@echo ... DES/CBCDESDecryption.i
+	@echo ... DES/CBCDESDecryption.s
+	@echo ... DES/CBCDESEncryption.obj
+	@echo ... DES/CBCDESEncryption.i
+	@echo ... DES/CBCDESEncryption.s
+	@echo ... DES/DESDecrypt.obj
+	@echo ... DES/DESDecrypt.i
+	@echo ... DES/DESDecrypt.s
+	@echo ... DES/DESEncrypt.obj
+	@echo ... DES/DESEncrypt.i
+	@echo ... DES/DESEncrypt.s
+	@echo ... DES/DataPrint.obj
+	@echo ... DES/DataPrint.i
+	@echo ... DES/DataPrint.s
+	@echo ... DES/FileReader.obj
+	@echo ... DES/FileReader.i
+	@echo ... DES/FileReader.s
+	@echo ... DES/keyGeneration.obj
+	@echo ... DES/keyGeneration.i
+	@echo ... DES/keyGeneration.s
+	@echo ... DES/keyReader.obj
+	@echo ... DES/keyReader.i
+	@echo ... DES/keyReader.s
+	@echo ... DES/tripleDESCBCDecryption.obj
+	@echo ... DES/tripleDESCBCDecryption.i
+	@echo ... DES/tripleDESCBCDecryption.s
+	@echo ... DES/tripleDESCBCEncryption.obj
+	@echo ... DES/tripleDESCBCEncryption.i
+	@echo ... DES/tripleDESCBCEncryption.s
+	@echo ... DES/tripleKeyDESCBCDecryption.obj
+	@echo ... DES/tripleKeyDESCBCDecryption.i
+	@echo ... DES/tripleKeyDESCBCDecryption.s
+	@echo ... DES/tripleKeyDESCBCEncryption.obj
+	@echo ... DES/tripleKeyDESCBCEncryption.i
+	@echo ... DES/tripleKeyDESCBCEncryption.s
+	@echo ... cipher_padding.obj
+	@echo ... cipher_padding.i
+	@echo ... cipher_padding.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... utils.obj
+	@echo ... utils.i
+	@echo ... utils.s
 .PHONY : help
 
 

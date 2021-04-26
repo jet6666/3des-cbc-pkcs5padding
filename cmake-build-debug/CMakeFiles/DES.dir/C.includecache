@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/web/android/3des-cbc-pkcs5padding/DES/BitPermutationFunctions.h
+
+D:/web/android/3des-cbc-pkcs5padding/DES/DESEncrypt.c
+BitPermutationFunctions.h
+D:/web/android/3des-cbc-pkcs5padding/DES/BitPermutationFunctions.h
+DataPrint.h
+D:/web/android/3des-cbc-pkcs5padding/DES/DataPrint.h
+DESEncrypt.h
+D:/web/android/3des-cbc-pkcs5padding/DES/DESEncrypt.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+D:/web/android/3des-cbc-pkcs5padding/DES/DESEncrypt.h
+
+D:/web/android/3des-cbc-pkcs5padding/DES/DataPrint.h
+
