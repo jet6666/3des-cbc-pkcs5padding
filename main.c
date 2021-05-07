@@ -19,6 +19,7 @@
 #include "cipher_padding.h"
 
 
+
 int main() {
     printf("Hello, World!\n");
 
@@ -26,7 +27,7 @@ int main() {
     //test 32 Bytes
     //this is a 3des-cbd-PKCS#5 exampl
     //test 33 Bytes
-    unsigned char buffer[] = "this is a 3des-cbd-PKCS#5 exampl";
+    unsigned char buffer[] = "this is a 3des-cbd-PKCS#5 example";
     printf("plain  text  = %s ,length = %d \n", buffer,strlen(buffer));
 
     //after  PKCS#5 padding
@@ -36,28 +37,34 @@ int main() {
     //hexdump(buffer,strlen(buffer)) ;
 
     //iv = thisthat
-    char iv[] = {0X74, 0X68, 0X69, 0X73, 0X74, 0X68, 0X61, 0X74};
-    printf("iv = %s \n", iv);
+    unsigned  char iv[] = {0X74, 0X68, 0X69, 0X73, 0X74, 0X68, 0X61, 0X74};
+//    printf("iv = %s \n", iv);
+//
+//    //key = key1key2key3key4key5key6key7key8
+    unsigned char key[] = {0X6B, 0X65, 0X79, 0X31, 0X6B, 0X65, 0X79, 0X32};
+    unsigned char key2[] = {0X6B, 0X65, 0X79, 0X33, 0X6B, 0X65, 0X79, 0X34};
+    unsigned char key3[] = {0X6B, 0X65, 0X79, 0X35, 0X6B, 0X65, 0X79, 0X36};
 
-    //key = key1key2key3key4key5key6key7key8
-    char key[] = {0X6B, 0X65, 0X79, 0X31, 0X6B, 0X65, 0X79, 0X32};
-    char key2[] = {0X6B, 0X65, 0X79, 0X33, 0X6B, 0X65, 0X79, 0X34};
-    char key3[] = {0X6B, 0X65, 0X79, 0X35, 0X6B, 0X65, 0X79, 0X36};
+
 //    printf("key  = %s \n", iv);
 
-    unsigned char out[1024] = {0};
+      char out[1024] = {0};
     memset(out, 0x0, sizeof(out));
+
+    hexdump(buffer,strlen(buffer)) ;
+    printf("==stop") ;
+
     tripleKeyDES_CBCEncryption(buffer, key, key2, key3, iv, buffer_length, out);
 
     //hex data
-    int len = strlen(out);
+    int len = buffer_length;//strlen(out);
     printf("=======result  hex  ,length =%d \n", len);
     hexdump(out, len);
     printf(" \n");
 
     //base64
     unsigned char *buf = NULL;
-    buf = base64_encode(out);
+    buf = base64_encode(out,len);
     printf("base64 =%s ", buf);
 
     free(buf);

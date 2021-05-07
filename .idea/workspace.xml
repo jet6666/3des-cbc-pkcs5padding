@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="3des_cbc_pkcs5padding" targetName="DES" />
       <config projectName="3des_cbc_pkcs5padding" targetName="3des_cbc_pkcs5padding" />
+      <config projectName="3des_cbc_pkcs5padding" targetName="DES" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,7 +12,25 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a43ba8-c6c0-45aa-ad30-62b535096810" name="Default Changelist" comment="" />
+    <list default="true" id="b0a43ba8-c6c0-45aa-ad30-62b535096810" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DES" beforeDir="false" afterPath="$PROJECT_DIR$/DES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DES/DESEncrypt.c" beforeDir="false" afterPath="$PROJECT_DIR$/DES/DESEncrypt.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DES/tripleKeyDESCBCEncryption.c" beforeDir="false" afterPath="$PROJECT_DIR$/DES/tripleKeyDESCBCEncryption.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/3des_cbc_pkcs5padding.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/3des_cbc_pkcs5padding.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3des_cbc_pkcs5padding.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3des_cbc_pkcs5padding.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3des_cbc_pkcs5padding.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3des_cbc_pkcs5padding.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3des_cbc_pkcs5padding.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3des_cbc_pkcs5padding.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3des_cbc_pkcs5padding.dir/utils.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3des_cbc_pkcs5padding.dir/utils.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DES.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DES.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DES.dir/DES/DESEncrypt.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DES.dir/DES/DESEncrypt.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DES.dir/DES/tripleKeyDESCBCEncryption.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DES.dir/DES/tripleKeyDESCBCEncryption.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libDES.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libDES.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/utils.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/utils.h" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +44,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1rhL2VrZqhnavlrgNJZCZP1mCHY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -74,7 +95,14 @@
       <option name="presentableId" value="Default" />
       <updated>1619423167220</updated>
       <workItem from="1619423168584" duration="5919000" />
-      <workItem from="1619430238694" duration="320000" />
+      <workItem from="1619430238694" duration="1755000" />
+      <workItem from="1619508358084" duration="5181000" />
+      <workItem from="1619590847248" duration="7041000" />
+      <workItem from="1619665056264" duration="428000" />
+      <workItem from="1619665602176" duration="897000" />
+      <workItem from="1619765399311" duration="4322000" />
+      <workItem from="1619772456596" duration="5124000" />
+      <workItem from="1620377419012" duration="7292000" />
     </task>
     <servers />
   </component>
@@ -93,5 +121,104 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.c</url>
+          <line>59</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/tripleKeyDESCBCEncryption.c</url>
+          <line>107</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/tripleKeyDESCBCEncryption.c</url>
+          <line>108</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/tripleKeyDESCBCEncryption.c</url>
+          <line>109</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/tripleKeyDESCBCEncryption.c</url>
+          <line>112</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/DESEncrypt.c</url>
+          <line>204</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/DESEncrypt.c</url>
+          <line>203</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/DESEncrypt.c</url>
+          <line>201</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/BitPermutationFunctions.c</url>
+          <line>73</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/BitPermutationFunctions.c</url>
+          <line>192</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/BitPermutationFunctions.c</url>
+          <line>193</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/DESEncrypt.c</url>
+          <line>192</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/DESEncrypt.c</url>
+          <line>189</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/DESEncrypt.c</url>
+          <line>190</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/DESEncrypt.c</url>
+          <line>193</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/DES/BitPermutationFunctions.c</url>
+          <line>194</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="dShifts" />
+        <watch expression="pk" />
+        <watch expression="*(char(*)[8])(side1)" language="ObjectiveC" />
+        <watch expression="*(char(*)[8])(side2)" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
