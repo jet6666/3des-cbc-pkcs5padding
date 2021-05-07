@@ -97,7 +97,7 @@
       <workItem from="1619665602176" duration="897000" />
       <workItem from="1619765399311" duration="4322000" />
       <workItem from="1619772456596" duration="5124000" />
-      <workItem from="1620377419012" duration="8042000" />
+      <workItem from="1620377419012" duration="8136000" />
     </task>
     <task id="LOCAL-00001" summary="1.get cipher text by byte instead of strncat">
       <created>1620385133919</created>
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620385630950</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1620385830624</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620385830624</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,10 +141,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update" />
     <MESSAGE value="1.get cipher text by byte instead of strncat" />
     <MESSAGE value="fixed string concat" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed string concat" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
