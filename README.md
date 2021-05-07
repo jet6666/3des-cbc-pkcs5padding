@@ -4,26 +4,40 @@
 ## c
 
 ```
-    unsigned char buffer[] = "this is a 3des-cbd-PKCS#5 exampl";
-    padding_with_length(buffer, strlen(buffer));
-    //iv = thisthat
-    unsigned  char iv[] = {0X74, 0X68, 0X69, 0X73, 0X74, 0X68, 0X61, 0X74};
-    printf("iv = %s \n", iv);
+     unsigned char buffer[] = "this is a 3des-cbd-PKCS#5 example2222";
+        //after  PKCS#5 padding
+        char *buffer2 = padding_with_length(buffer, strlen(buffer));
+        int buffer_length = strlen(buffer2);
+        //iv = thisthat
+        unsigned  char iv[] = {0X74, 0X68, 0X69, 0X73, 0X74, 0X68, 0X61, 0X74};
+    //    //key = key1key2key3key4key5key6key7key8
+        unsigned char key[] = {0X6B, 0X65, 0X79, 0X31, 0X6B, 0X65, 0X79, 0X32};
+        unsigned char key2[] = {0X6B, 0X65, 0X79, 0X33, 0X6B, 0X65, 0X79, 0X34};
+        unsigned char key3[] = {0X6B, 0X65, 0X79, 0X35, 0X6B, 0X65, 0X79, 0X36};
 
-    //key = key1key2key3key4key5key6key7key8
-    unsigned char key[] = {0X6B, 0X65, 0X79, 0X31, 0X6B, 0X65, 0X79, 0X32};
-    unsigned char key2[] = {0X6B, 0X65, 0X79, 0X33, 0X6B, 0X65, 0X79, 0X34};
-    unsigned char key3[] = {0X6B, 0X65, 0X79, 0X35, 0X6B, 0X65, 0X79, 0X36};
+          char out[1024] = {0};
+        memset(out, 0x0, sizeof(out));
+        tripleKeyDES_CBCEncryption(buffer2, key, key2, key3, iv, buffer_length, out);
+        int len = buffer_length;//strlen(out);
+        //base64
+        unsigned char *buf = NULL;
+        buf = base64_encode(out,len);
+        printf("base64 =%s ", buf);
     
-    unsigned char out[1024] = {0};
-    memset(out, 0x0, sizeof(out));
-    tripleKeyDES_CBCEncryption(buffer, key, key2, key3, iv, buffer_length, out);
-    
-    //base64
-    unsigned char *buf = NULL;
-    buf = base64_encode(out);
-    printf("base64 =%s ", buf); 
-    
+```
+
+
+# output
+```
+==stop=======result  hex  ,length =40
+ FB  51  9F  1C  41  82  A1  E7
+ 52  6F  63  C6  67  98  B3  EE
+ 18  2F  FE  7E  EC  57  12  A5
+ 4E  58  93  06  A5  D2  4B  BA
+ 81  4A  9A  1F  0E  3C  5A  01
+
+
+base64 =+1GfHEGCoedSb2PGZ5iz7hgv/n7sVxKlTliTBqXSS7qBSpofDjxaAQ==
 ```
 
 
