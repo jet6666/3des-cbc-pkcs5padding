@@ -27,13 +27,13 @@ int main() {
     //test 32 Bytes
     //this is a 3des-cbd-PKCS#5 exampl
     //test 33 Bytes
-    unsigned char buffer[] = "this is a 3des-cbd-PKCS#5 example";
+    unsigned char buffer[] = "this is a 3des-cbd-PKCS#5 example2222";
     printf("plain  text  = %s ,length = %d \n", buffer,strlen(buffer));
 
     //after  PKCS#5 padding
-    padding_with_length(buffer, strlen(buffer));
-    int buffer_length = strlen(buffer);
-    printf("plain  text2 = %s ,length = %d \n", buffer,strlen(buffer));
+    char *buffer2 = padding_with_length(buffer, strlen(buffer));
+    int buffer_length = strlen(buffer2);
+    printf("plain  text2 = %s ,length = %d \n", buffer2,strlen(buffer2));
     //hexdump(buffer,strlen(buffer)) ;
 
     //iv = thisthat
@@ -51,10 +51,10 @@ int main() {
       char out[1024] = {0};
     memset(out, 0x0, sizeof(out));
 
-    hexdump(buffer,strlen(buffer)) ;
+    hexdump(buffer,strlen(buffer2)) ;
     printf("==stop") ;
 
-    tripleKeyDES_CBCEncryption(buffer, key, key2, key3, iv, buffer_length, out);
+    tripleKeyDES_CBCEncryption(buffer2, key, key2, key3, iv, buffer_length, out);
 
     //hex data
     int len = buffer_length;//strlen(out);
